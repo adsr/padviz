@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.16.1 -->
+<interface>
+  <requires lib="gtk+" version="3.10"/>
+  <object class="GtkWindow" id="wmain">
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">padviz</property>
+    <property name="resizable">False</property>
+    <property name="window_position">center</property>
+    <property name="has_resize_grip">False</property>
+    <child>
+      <object class="GtkFixed" id="fixed">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkImage" id="pad">
+            <property name="width_request">320</property>
+            <property name="height_request">140</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="pixbuf">pad.png</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel" id="up">
+            <property name="width_request">20</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">      </property>
+            <attributes>
+              <attribute name="background" value="#8a8ae2e23434"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">46</property>
+            <property name="y">54</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="down">
+            <property name="width_request">20</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">      </property>
+            <attributes>
+              <attribute name="background" value="#8a8ae2e23434"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">46</property>
+            <property name="y">92</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="left">
+            <property name="width_request">20</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">      </property>
+            <attributes>
+              <attribute name="background" value="#8a8ae2e23434"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">28</property>
+            <property name="y">73</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="right">
+            <property name="width_request">20</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">      </property>
+            <attributes>
+              <attribute name="background" value="#8a8ae2e23434"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">64</property>
+            <property name="y">73</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="sel">
+            <property name="width_request">20</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">      </property>
+            <attributes>
+              <attribute name="background" value="#8a8ae2e23434"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">117</property>
+            <property name="y">88</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="start">
+            <property name="width_request">20</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">      </property>
+            <attributes>
+              <attribute name="background" value="#8a8ae2e23434"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">159</property>
+            <property name="y">88</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="btnB">
+            <property name="width_request">20</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">      </property>
+            <attributes>
+              <attribute name="background" value="#8a8ae2e23434"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">215</property>
+            <property name="y">88</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="btnA">
+            <property name="width_request">20</property>
+            <property name="height_request">20</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">      </property>
+            <attributes>
+              <attribute name="background" value="#8a8ae2e23434"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="x">256</property>
+            <property name="y">88</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
