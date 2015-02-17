@@ -6,7 +6,7 @@ padviz is a quick and dirty NES controller visualizer. It reads events from
 (hid-atari-retrobit)[https://github.com/robmcmullen/hid-atari-retrobit] device
 and visualizes button presses on the window.
 
-# Building
+### Building
 
     $ # Install gtk3 dev package
     $ sudo apt-get install libgtk-3-dev  # or equivalent
@@ -21,5 +21,5 @@ and visualizes button presses on the window.
     $ # Run
     $ ./padviz
 
-# Screenshot
+### Screenshot
 ![Screenshot of padviz](http://i.imgur.com/4PIkJBS.png)
